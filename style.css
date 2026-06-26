@@ -183,3 +183,50 @@ section h2 {
     opacity: 0.18;
     pointer-events: none;
 }
+
+#projects {
+    background: #f8fafc;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(320px, 1fr)
+    );
+    gap: 30px;
+}
+
+.project-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+}
+
+.tech-stack {
+    margin-top: 20px;
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.project-links {
+    margin-top: 25px;
+}
+
+.project-links a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #2563eb;
+    font-weight: bold;
+}
