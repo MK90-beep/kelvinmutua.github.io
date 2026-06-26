@@ -54,13 +54,14 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 20px;
+
+    padding: 120px 20px 80px;
 
     background:
         linear-gradient(
@@ -72,7 +73,7 @@ nav ul li a:hover {
     position: relative;
     overflow: hidden;
 }
-
+bbbbb zzzz
 .profile-pic {
     width: 220px;
     height: 220px;
